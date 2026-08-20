@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cfb.drwhittier.com/sitemap.xml
