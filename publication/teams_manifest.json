@@ -1,0 +1,549 @@
+{
+  "season": 2026,
+  "teams": [
+    {
+      "display_name": "Boston College",
+      "canonical_name": "Boston College",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Boston_College_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Boston_College_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "California",
+      "canonical_name": "California",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "California_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/California_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Clemson",
+      "canonical_name": "Clemson",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Clemson_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Clemson_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Duke",
+      "canonical_name": "Duke",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Duke_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Duke_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Florida State",
+      "canonical_name": "Florida State",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Florida_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Florida_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Georgia Tech",
+      "canonical_name": "Georgia Tech",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Georgia_Tech_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Georgia_Tech_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Louisville",
+      "canonical_name": "Louisville",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Louisville_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Louisville_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Miami",
+      "canonical_name": "Miami",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Miami_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Miami_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "NC State",
+      "canonical_name": "NC State",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "NC_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/NC_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "North Carolina",
+      "canonical_name": "North Carolina",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "North_Carolina_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/North_Carolina_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Pitt",
+      "canonical_name": "Pittsburgh",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Pittsburgh_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Pittsburgh_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "SMU",
+      "canonical_name": "SMU",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "SMU_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/SMU_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Stanford",
+      "canonical_name": "Stanford",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Stanford_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Stanford_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Syracuse",
+      "canonical_name": "Syracuse",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Syracuse_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Syracuse_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Virginia",
+      "canonical_name": "Virginia",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Virginia_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Virginia_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Virginia Tech",
+      "canonical_name": "Virginia Tech",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Virginia_Tech_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Virginia_Tech_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Wake Forest",
+      "canonical_name": "Wake Forest",
+      "conference": "ACC",
+      "conference_slug": "acc",
+      "pdf_filename": "Wake_Forest_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/acc/Wake_Forest_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Illinois",
+      "canonical_name": "Illinois",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Illinois_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Illinois_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Indiana",
+      "canonical_name": "Indiana",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Indiana_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Indiana_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Iowa",
+      "canonical_name": "Iowa",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Iowa_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Iowa_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Maryland",
+      "canonical_name": "Maryland",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Maryland_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Maryland_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Michigan",
+      "canonical_name": "Michigan",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Michigan_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Michigan_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Michigan State",
+      "canonical_name": "Michigan State",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Michigan_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Michigan_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Minnesota",
+      "canonical_name": "Minnesota",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Minnesota_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Minnesota_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Nebraska",
+      "canonical_name": "Nebraska",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Nebraska_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Nebraska_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Northwestern",
+      "canonical_name": "Northwestern",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Northwestern_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Northwestern_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Ohio State",
+      "canonical_name": "Ohio State",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Ohio_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Ohio_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Oregon",
+      "canonical_name": "Oregon",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Oregon_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Oregon_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Penn State",
+      "canonical_name": "Penn State",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Penn_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Penn_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Purdue",
+      "canonical_name": "Purdue",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Purdue_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Purdue_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Rutgers",
+      "canonical_name": "Rutgers",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Rutgers_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Rutgers_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "UCLA",
+      "canonical_name": "UCLA",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "UCLA_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/UCLA_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "USC",
+      "canonical_name": "USC",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "USC_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/USC_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Washington",
+      "canonical_name": "Washington",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Washington_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Washington_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Wisconsin",
+      "canonical_name": "Wisconsin",
+      "conference": "Big Ten",
+      "conference_slug": "big-ten",
+      "pdf_filename": "Wisconsin_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-ten/Wisconsin_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Arizona",
+      "canonical_name": "Arizona",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Arizona_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Arizona_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Arizona State",
+      "canonical_name": "Arizona State",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Arizona_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Arizona_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Baylor",
+      "canonical_name": "Baylor",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Baylor_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Baylor_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "BYU",
+      "canonical_name": "BYU",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "BYU_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/BYU_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Cincinnati",
+      "canonical_name": "Cincinnati",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Cincinnati_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Cincinnati_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Colorado",
+      "canonical_name": "Colorado",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Colorado_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Colorado_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Houston",
+      "canonical_name": "Houston",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Houston_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Houston_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Iowa State",
+      "canonical_name": "Iowa State",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Iowa_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Iowa_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Kansas",
+      "canonical_name": "Kansas",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Kansas_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Kansas_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Kansas State",
+      "canonical_name": "Kansas State",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Kansas_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Kansas_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Oklahoma State",
+      "canonical_name": "Oklahoma State",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Oklahoma_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Oklahoma_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "TCU",
+      "canonical_name": "TCU",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "TCU_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/TCU_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Texas Tech",
+      "canonical_name": "Texas Tech",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Texas_Tech_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Texas_Tech_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "UCF",
+      "canonical_name": "UCF",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "UCF_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/UCF_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Utah",
+      "canonical_name": "Utah",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "Utah_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/Utah_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "West Virginia",
+      "canonical_name": "West Virginia",
+      "conference": "Big 12",
+      "conference_slug": "big-12",
+      "pdf_filename": "West_Virginia_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/big-12/West_Virginia_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Alabama",
+      "canonical_name": "Alabama",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Alabama_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Alabama_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Arkansas",
+      "canonical_name": "Arkansas",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Arkansas_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Arkansas_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Auburn",
+      "canonical_name": "Auburn",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Auburn_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Auburn_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Florida",
+      "canonical_name": "Florida",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Florida_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Florida_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Georgia",
+      "canonical_name": "Georgia",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Georgia_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Georgia_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Kentucky",
+      "canonical_name": "Kentucky",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Kentucky_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Kentucky_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "LSU",
+      "canonical_name": "LSU",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "LSU_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/LSU_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Mississippi State",
+      "canonical_name": "Mississippi State",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Mississippi_State_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Mississippi_State_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Missouri",
+      "canonical_name": "Missouri",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Missouri_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Missouri_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Oklahoma",
+      "canonical_name": "Oklahoma",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Oklahoma_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Oklahoma_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Ole Miss",
+      "canonical_name": "Ole Miss",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Ole_Miss_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Ole_Miss_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "South Carolina",
+      "canonical_name": "South Carolina",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "South_Carolina_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/South_Carolina_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Tennessee",
+      "canonical_name": "Tennessee",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Tennessee_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Tennessee_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Texas",
+      "canonical_name": "Texas",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Texas_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Texas_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Texas A&M",
+      "canonical_name": "Texas A&M",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Texas_A&M_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Texas_A&M_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Vanderbilt",
+      "canonical_name": "Vanderbilt",
+      "conference": "SEC",
+      "conference_slug": "sec",
+      "pdf_filename": "Vanderbilt_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/sec/Vanderbilt_2026_Preseason_Primer.pdf"
+    },
+    {
+      "display_name": "Notre Dame",
+      "canonical_name": "Notre Dame",
+      "conference": "Notre Dame",
+      "conference_slug": "notre-dame",
+      "pdf_filename": "Notre_Dame_2026_Preseason_Primer.pdf",
+      "pdf_path": "pdfs/notre-dame/Notre_Dame_2026_Preseason_Primer.pdf"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+display_name,canonical_name,conference,conference_slug,pdf_filename,pdf_path
+Boston College,Boston College,ACC,acc,Boston_College_2026_Preseason_Primer.pdf,pdfs/acc/Boston_College_2026_Preseason_Primer.pdf
+California,California,ACC,acc,California_2026_Preseason_Primer.pdf,pdfs/acc/California_2026_Preseason_Primer.pdf
+Clemson,Clemson,ACC,acc,Clemson_2026_Preseason_Primer.pdf,pdfs/acc/Clemson_2026_Preseason_Primer.pdf
+Duke,Duke,ACC,acc,Duke_2026_Preseason_Primer.pdf,pdfs/acc/Duke_2026_Preseason_Primer.pdf
+Florida State,Florida State,ACC,acc,Florida_State_2026_Preseason_Primer.pdf,pdfs/acc/Florida_State_2026_Preseason_Primer.pdf
+Georgia Tech,Georgia Tech,ACC,acc,Georgia_Tech_2026_Preseason_Primer.pdf,pdfs/acc/Georgia_Tech_2026_Preseason_Primer.pdf
+Louisville,Louisville,ACC,acc,Louisville_2026_Preseason_Primer.pdf,pdfs/acc/Louisville_2026_Preseason_Primer.pdf
+Miami,Miami,ACC,acc,Miami_2026_Preseason_Primer.pdf,pdfs/acc/Miami_2026_Preseason_Primer.pdf
+NC State,NC State,ACC,acc,NC_State_2026_Preseason_Primer.pdf,pdfs/acc/NC_State_2026_Preseason_Primer.pdf
+North Carolina,North Carolina,ACC,acc,North_Carolina_2026_Preseason_Primer.pdf,pdfs/acc/North_Carolina_2026_Preseason_Primer.pdf
+Pitt,Pittsburgh,ACC,acc,Pittsburgh_2026_Preseason_Primer.pdf,pdfs/acc/Pittsburgh_2026_Preseason_Primer.pdf
+SMU,SMU,ACC,acc,SMU_2026_Preseason_Primer.pdf,pdfs/acc/SMU_2026_Preseason_Primer.pdf
+Stanford,Stanford,ACC,acc,Stanford_2026_Preseason_Primer.pdf,pdfs/acc/Stanford_2026_Preseason_Primer.pdf
+Syracuse,Syracuse,ACC,acc,Syracuse_2026_Preseason_Primer.pdf,pdfs/acc/Syracuse_2026_Preseason_Primer.pdf
+Virginia,Virginia,ACC,acc,Virginia_2026_Preseason_Primer.pdf,pdfs/acc/Virginia_2026_Preseason_Primer.pdf
+Virginia Tech,Virginia Tech,ACC,acc,Virginia_Tech_2026_Preseason_Primer.pdf,pdfs/acc/Virginia_Tech_2026_Preseason_Primer.pdf
+Wake Forest,Wake Forest,ACC,acc,Wake_Forest_2026_Preseason_Primer.pdf,pdfs/acc/Wake_Forest_2026_Preseason_Primer.pdf
+Illinois,Illinois,Big Ten,big-ten,Illinois_2026_Preseason_Primer.pdf,pdfs/big-ten/Illinois_2026_Preseason_Primer.pdf
+Indiana,Indiana,Big Ten,big-ten,Indiana_2026_Preseason_Primer.pdf,pdfs/big-ten/Indiana_2026_Preseason_Primer.pdf
+Iowa,Iowa,Big Ten,big-ten,Iowa_2026_Preseason_Primer.pdf,pdfs/big-ten/Iowa_2026_Preseason_Primer.pdf
+Maryland,Maryland,Big Ten,big-ten,Maryland_2026_Preseason_Primer.pdf,pdfs/big-ten/Maryland_2026_Preseason_Primer.pdf
+Michigan,Michigan,Big Ten,big-ten,Michigan_2026_Preseason_Primer.pdf,pdfs/big-ten/Michigan_2026_Preseason_Primer.pdf
+Michigan State,Michigan State,Big Ten,big-ten,Michigan_State_2026_Preseason_Primer.pdf,pdfs/big-ten/Michigan_State_2026_Preseason_Primer.pdf
+Minnesota,Minnesota,Big Ten,big-ten,Minnesota_2026_Preseason_Primer.pdf,pdfs/big-ten/Minnesota_2026_Preseason_Primer.pdf
+Nebraska,Nebraska,Big Ten,big-ten,Nebraska_2026_Preseason_Primer.pdf,pdfs/big-ten/Nebraska_2026_Preseason_Primer.pdf
+Northwestern,Northwestern,Big Ten,big-ten,Northwestern_2026_Preseason_Primer.pdf,pdfs/big-ten/Northwestern_2026_Preseason_Primer.pdf
+Ohio State,Ohio State,Big Ten,big-ten,Ohio_State_2026_Preseason_Primer.pdf,pdfs/big-ten/Ohio_State_2026_Preseason_Primer.pdf
+Oregon,Oregon,Big Ten,big-ten,Oregon_2026_Preseason_Primer.pdf,pdfs/big-ten/Oregon_2026_Preseason_Primer.pdf
+Penn State,Penn State,Big Ten,big-ten,Penn_State_2026_Preseason_Primer.pdf,pdfs/big-ten/Penn_State_2026_Preseason_Primer.pdf
+Purdue,Purdue,Big Ten,big-ten,Purdue_2026_Preseason_Primer.pdf,pdfs/big-ten/Purdue_2026_Preseason_Primer.pdf
+Rutgers,Rutgers,Big Ten,big-ten,Rutgers_2026_Preseason_Primer.pdf,pdfs/big-ten/Rutgers_2026_Preseason_Primer.pdf
+UCLA,UCLA,Big Ten,big-ten,UCLA_2026_Preseason_Primer.pdf,pdfs/big-ten/UCLA_2026_Preseason_Primer.pdf
+USC,USC,Big Ten,big-ten,USC_2026_Preseason_Primer.pdf,pdfs/big-ten/USC_2026_Preseason_Primer.pdf
+Washington,Washington,Big Ten,big-ten,Washington_2026_Preseason_Primer.pdf,pdfs/big-ten/Washington_2026_Preseason_Primer.pdf
+Wisconsin,Wisconsin,Big Ten,big-ten,Wisconsin_2026_Preseason_Primer.pdf,pdfs/big-ten/Wisconsin_2026_Preseason_Primer.pdf
+Arizona,Arizona,Big 12,big-12,Arizona_2026_Preseason_Primer.pdf,pdfs/big-12/Arizona_2026_Preseason_Primer.pdf
+Arizona State,Arizona State,Big 12,big-12,Arizona_State_2026_Preseason_Primer.pdf,pdfs/big-12/Arizona_State_2026_Preseason_Primer.pdf
+Baylor,Baylor,Big 12,big-12,Baylor_2026_Preseason_Primer.pdf,pdfs/big-12/Baylor_2026_Preseason_Primer.pdf
+BYU,BYU,Big 12,big-12,BYU_2026_Preseason_Primer.pdf,pdfs/big-12/BYU_2026_Preseason_Primer.pdf
+Cincinnati,Cincinnati,Big 12,big-12,Cincinnati_2026_Preseason_Primer.pdf,pdfs/big-12/Cincinnati_2026_Preseason_Primer.pdf
+Colorado,Colorado,Big 12,big-12,Colorado_2026_Preseason_Primer.pdf,pdfs/big-12/Colorado_2026_Preseason_Primer.pdf
+Houston,Houston,Big 12,big-12,Houston_2026_Preseason_Primer.pdf,pdfs/big-12/Houston_2026_Preseason_Primer.pdf
+Iowa State,Iowa State,Big 12,big-12,Iowa_State_2026_Preseason_Primer.pdf,pdfs/big-12/Iowa_State_2026_Preseason_Primer.pdf
+Kansas,Kansas,Big 12,big-12,Kansas_2026_Preseason_Primer.pdf,pdfs/big-12/Kansas_2026_Preseason_Primer.pdf
+Kansas State,Kansas State,Big 12,big-12,Kansas_State_2026_Preseason_Primer.pdf,pdfs/big-12/Kansas_State_2026_Preseason_Primer.pdf
+Oklahoma State,Oklahoma State,Big 12,big-12,Oklahoma_State_2026_Preseason_Primer.pdf,pdfs/big-12/Oklahoma_State_2026_Preseason_Primer.pdf
+TCU,TCU,Big 12,big-12,TCU_2026_Preseason_Primer.pdf,pdfs/big-12/TCU_2026_Preseason_Primer.pdf
+Texas Tech,Texas Tech,Big 12,big-12,Texas_Tech_2026_Preseason_Primer.pdf,pdfs/big-12/Texas_Tech_2026_Preseason_Primer.pdf
+UCF,UCF,Big 12,big-12,UCF_2026_Preseason_Primer.pdf,pdfs/big-12/UCF_2026_Preseason_Primer.pdf
+Utah,Utah,Big 12,big-12,Utah_2026_Preseason_Primer.pdf,pdfs/big-12/Utah_2026_Preseason_Primer.pdf
+West Virginia,West Virginia,Big 12,big-12,West_Virginia_2026_Preseason_Primer.pdf,pdfs/big-12/West_Virginia_2026_Preseason_Primer.pdf
+Alabama,Alabama,SEC,sec,Alabama_2026_Preseason_Primer.pdf,pdfs/sec/Alabama_2026_Preseason_Primer.pdf
+Arkansas,Arkansas,SEC,sec,Arkansas_2026_Preseason_Primer.pdf,pdfs/sec/Arkansas_2026_Preseason_Primer.pdf
+Auburn,Auburn,SEC,sec,Auburn_2026_Preseason_Primer.pdf,pdfs/sec/Auburn_2026_Preseason_Primer.pdf
+Florida,Florida,SEC,sec,Florida_2026_Preseason_Primer.pdf,pdfs/sec/Florida_2026_Preseason_Primer.pdf
+Georgia,Georgia,SEC,sec,Georgia_2026_Preseason_Primer.pdf,pdfs/sec/Georgia_2026_Preseason_Primer.pdf
+Kentucky,Kentucky,SEC,sec,Kentucky_2026_Preseason_Primer.pdf,pdfs/sec/Kentucky_2026_Preseason_Primer.pdf
+LSU,LSU,SEC,sec,LSU_2026_Preseason_Primer.pdf,pdfs/sec/LSU_2026_Preseason_Primer.pdf
+Mississippi State,Mississippi State,SEC,sec,Mississippi_State_2026_Preseason_Primer.pdf,pdfs/sec/Mississippi_State_2026_Preseason_Primer.pdf
+Missouri,Missouri,SEC,sec,Missouri_2026_Preseason_Primer.pdf,pdfs/sec/Missouri_2026_Preseason_Primer.pdf
+Oklahoma,Oklahoma,SEC,sec,Oklahoma_2026_Preseason_Primer.pdf,pdfs/sec/Oklahoma_2026_Preseason_Primer.pdf
+Ole Miss,Ole Miss,SEC,sec,Ole_Miss_2026_Preseason_Primer.pdf,pdfs/sec/Ole_Miss_2026_Preseason_Primer.pdf
+South Carolina,South Carolina,SEC,sec,South_Carolina_2026_Preseason_Primer.pdf,pdfs/sec/South_Carolina_2026_Preseason_Primer.pdf
+Tennessee,Tennessee,SEC,sec,Tennessee_2026_Preseason_Primer.pdf,pdfs/sec/Tennessee_2026_Preseason_Primer.pdf
+Texas,Texas,SEC,sec,Texas_2026_Preseason_Primer.pdf,pdfs/sec/Texas_2026_Preseason_Primer.pdf
+Texas A&M,Texas A&M,SEC,sec,Texas_A&M_2026_Preseason_Primer.pdf,pdfs/sec/Texas_A&M_2026_Preseason_Primer.pdf
+Vanderbilt,Vanderbilt,SEC,sec,Vanderbilt_2026_Preseason_Primer.pdf,pdfs/sec/Vanderbilt_2026_Preseason_Primer.pdf
+Notre Dame,Notre Dame,Notre Dame,notre-dame,Notre_Dame_2026_Preseason_Primer.pdf,pdfs/notre-dame/Notre_Dame_2026_Preseason_Primer.pdf

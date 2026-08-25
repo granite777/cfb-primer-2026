@@ -1,6 +1,8 @@
 # 2026 College Football Preseason Primer website
 
-Static one-page catalog for the PDF-first primer project.
+Static one-page catalog for the PDF-first primer project at **cfb.drwhittier.com**.
+
+The current site appearance is intentionally frozen. Publication tooling is designed to support staged releases without redesigning the page.
 
 ## Public identity
 
@@ -10,63 +12,120 @@ Static one-page catalog for the PDF-first primer project.
 
 No personal email address, analytics, cookies, third-party fonts, or third-party scripts are included.
 
-## Publish a team PDF
+## Staged publication model
 
-1. Copy the completed PDF to the expected conference folder under `pdfs/`.
-   Example: `pdfs/sec/Vanderbilt_2026_Preseason_Primer.pdf`
-2. Open `assets/site.js`.
-3. Add the team to the `availability` object:
+Team primers are released in waves. A wave may be a full conference or a custom set of teams.
+
+**Important:** this GitHub Pages repository is public. A PDF uploaded here is publicly reachable by URL even if the homepage still says “Coming soon.” Therefore, do **not** upload unreleased PDFs to the repository. Upload only the PDFs that are intended to become public in the current wave.
+
+Publication state is controlled in `assets/release-state.js`.
+
+### Release an entire conference
+
+1. Upload that conference's completed PDFs into its existing folder under `pdfs/`.
+2. Open `assets/release-state.js`.
+3. Change that conference from `false` to `true`. Example:
 
 ```js
-const availability = {
-  "Vanderbilt": true,
-};
+"SEC": true
 ```
 
-4. Commit/publish. The site automatically updates the team link, conference count, and overall count.
+4. Commit the PDFs and the release-state change together.
+5. Run/confirm the publication validator.
+
+The homepage automatically updates all team links, conference counts, and the overall available count.
+
+### Release a custom team wave
+
+Keep the conference set to `false`, then add only the released display names under `teams`. Example:
+
+```js
+"teams": {
+  "Florida": true,
+  "Georgia": true,
+  "Vanderbilt": true
+}
+```
+
+Upload only those PDFs and commit them with the release-state change.
+
+### Canonical filenames
+
+Exact expected filenames/paths are listed in:
+
+- `publication/teams_manifest.csv`
+- `publication/teams_manifest.json`
+- `publication/EXPECTED_PDF_PATHS.txt`
+
+Website PDF filenames are aligned to the production renderer convention: spaces become underscores and meaningful punctuation is retained. Examples:
+
+- `Pittsburgh_2026_Preseason_Primer.pdf` (site display remains **Pitt**)
+- `Texas_A&M_2026_Preseason_Primer.pdf`
+- `West_Virginia_2026_Preseason_Primer.pdf`
+
+## Publication tools
+
+`python tools/validate_publication.py`
+
+Checks:
+
+- all 68 manifest entries and conference membership
+- publication-state validity
+- every released team has the exact expected PDF
+- no unreleased team PDF has accidentally been uploaded
+- no unexpected PDF exists in the team folders
+- website links resolve to the exact canonical paths
+- the existing CSS and visible HTML remain unchanged from the v3 appearance baseline
+
+`python tools/publish_wave.py --conference SEC --source <folder>`
+
+Copies the expected PDFs for one conference from a local source folder, activates that conference, and runs the validator.
+
+Custom wave example:
+
+```bash
+python tools/publish_wave.py --teams Florida Georgia Vanderbilt --source <folder>
+```
+
+Use `--dry-run` to check a wave without changing files.
+
+For a GitHub-web-only workflow, you do not need the Python tools: upload the intended public PDFs and edit `assets/release-state.js` manually.
 
 ## Conference reviews
 
-Copy the conference-review PDF into `pdfs/conference-reviews/` using the filename already listed in `assets/site.js`, then change that conference's `reviewAvailable` value from `false` to `true`.
+Conference reviews remain independently controlled in `assets/site.js` with the existing `reviewAvailable` setting. Their expected PDF paths are already defined there.
 
 ## GitHub Pages deployment
 
-1. Create a repository for this site.
-2. Upload the contents of this folder to the repository root.
-3. In GitHub: **Settings → Pages → Deploy from a branch → main / root**.
-4. In GitHub Pages settings, set the custom domain to `cfb.drwhittier.com` **before** adding the Porkbun DNS record.
-5. At Porkbun, add a `CNAME` record for host `cfb` pointing to `<YOUR-GITHUB-USERNAME>.github.io`.
-6. Return to GitHub Pages after DNS resolves and enable **Enforce HTTPS**.
+Current production configuration:
 
-### Privacy note before choosing the GitHub account
+- custom domain: `cfb.drwhittier.com`
+- GitHub Pages: deploy from `main` / root
+- DNS: CNAME `cfb` → `granite777.github.io`
+- HTTPS: enabled / enforced
 
-The Pages repository, commit history, and DNS target may make the GitHub account behind the site discoverable. If the existing GitHub username/profile reveals a full name or other identity you do not want associated with the project, use a separate/pseudonymous GitHub account such as a DRWhittier-branded account before publishing.
-
-For commits from a local computer, also make sure Git's public author name/email do not expose a personal email address. A pseudonymous author name and GitHub's no-reply email are appropriate for this project.
+No Pages or DNS configuration change is required to publish team PDFs.
 
 ## Privacy and identity checklist
 
-Before launch:
-
-- Confirm Porkbun WHOIS/RDAP is set to **Use Privacy Service**, not Make Public.
-- Confirm the GitHub account/profile does not expose unwanted identifying information.
-- Confirm public Git commit metadata does not contain a personal email address.
+- Keep Porkbun WHOIS/RDAP privacy enabled.
+- Keep the GitHub account/profile free of unwanted identifying information.
+- Keep public Git commit metadata free of personal email addresses.
 - Keep the site free of analytics unless intentionally added later.
-- Keep the site free of personal email/phone/address data.
-- Check PDF metadata and set Author/Creator to `DRWhittier` (or blank), not a full personal name.
-- Check PDFs for embedded local file paths or document properties.
+- Keep personal email/phone/address data off the site.
+- PDF metadata Author: `DRWhittier`.
+- Check PDFs for embedded local file paths or unwanted document properties.
 - Keep X as the only contact link unless a project email is intentionally added later.
-- Confirm HTTPS is enforced after the custom domain is active.
-- Avoid wildcard DNS records for the domain/subdomain.
+- Avoid wildcard DNS records.
 
-## PDF publication credit
+## Canonical PDF publication block
 
-Recommended block immediately before Sources:
+Immediately before Sources:
 
-**About this primer**  
-Created by **DRWhittier** as part of the *2026 College Football Preseason Primer* project. Independent analysis combining publicly available statistics, roster information, advanced metrics, and editorial evaluation.  
+**About this primer**
 
-**cfb.drwhittier.com · X: @GatorBait7**  
-**Version 1.0 – August XX, 2026**  
+**DRWhittier · cfb.drwhittier.com · X: @GatorBait7 · Version 1.0 – [date]**
 
 © 2026 DRWhittier. Original analysis, commentary, selection, and arrangement.
+
+`cfb.drwhittier.com` and `@GatorBait7` are clickable. Copyright is on its own line. Do not restore the former “Independent preseason analysis covering every Power 4 team + Notre Dame.” sentence.

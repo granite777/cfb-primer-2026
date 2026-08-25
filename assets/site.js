@@ -1,7 +1,6 @@
-// To publish a team primer:
-// 1) Put the PDF at the file path listed below.
-// 2) Change available: false to available: true.
-// The page and release counters update automatically.
+// Publication state lives in assets/release-state.js.
+// Full-conference waves can be activated with one boolean; custom waves can use team overrides.
+// Unreleased PDFs should not be uploaded to this public repository.
 
 const conferences = [
   {
@@ -56,18 +55,24 @@ const conferences = [
   }
 ];
 
-const availability = {
-  // Examples when ready:
-  // "Vanderbilt": true,
-  // "West Virginia": true,
+const releaseState = window.CFB_RELEASE_STATE || { conferences: {}, teams: {} };
+
+// Preserve the existing site display name "Pitt" while matching the project's canonical PDF filename.
+const filenameOverrides = {
+  "Pitt": "Pittsburgh",
 };
 
+function isTeamAvailable(conference, team) {
+  return Boolean(releaseState.conferences[conference.name] || releaseState.teams[team]);
+}
+
 function fileSafe(team) {
-  return team.replace(/&/g, "and").replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "");
+  return team.replace(/\s+/g, "_");
 }
 
 function teamFile(conference, team) {
-  return `pdfs/${conference.slug}/${fileSafe(team)}_2026_Preseason_Primer.pdf`;
+  const fileTeam = filenameOverrides[team] || team;
+  return `pdfs/${conference.slug}/${fileSafe(fileTeam)}_2026_Preseason_Primer.pdf`;
 }
 
 function render() {
@@ -81,7 +86,7 @@ function render() {
 
   conferences.forEach(conf => {
     const matchingTeams = conf.teams.filter(team => {
-      const isAvailable = Boolean(availability[team]);
+      const isAvailable = isTeamAvailable(conf, team);
       if (isAvailable) availableCount += 1;
       const textMatch = !query || `${team} ${conf.name}`.toLowerCase().includes(query);
       const availabilityMatch = !onlyAvailable || isAvailable;
@@ -94,7 +99,7 @@ function render() {
     const card = document.createElement("article");
     card.className = "conference-card";
 
-    const availableInConf = conf.teams.filter(t => availability[t]).length;
+    const availableInConf = conf.teams.filter(t => isTeamAvailable(conf, t)).length;
     const header = document.createElement("div");
     header.className = "conference-header";
     header.innerHTML = `<h3>${conf.name}</h3><span class="conference-count">${availableInConf} / ${conf.teams.length} available</span>`;
@@ -112,7 +117,7 @@ function render() {
     const list = document.createElement("ul");
     list.className = "team-list";
     matchingTeams.forEach(team => {
-      const isAvailable = Boolean(availability[team]);
+      const isAvailable = isTeamAvailable(conf, team);
       const row = document.createElement("li");
       row.className = "team-row";
       row.innerHTML = isAvailable
@@ -125,7 +130,7 @@ function render() {
   });
 
   // Count availability independently of filters for the hero statistic.
-  const totalAvailable = conferences.flatMap(c => c.teams).filter(team => availability[team]).length;
+  const totalAvailable = conferences.reduce((sum, conf) => sum + conf.teams.filter(team => isTeamAvailable(conf, team)).length, 0);
   document.getElementById("available-count").textContent = totalAvailable;
   document.getElementById("no-results").hidden = shownTeams !== 0;
 }
