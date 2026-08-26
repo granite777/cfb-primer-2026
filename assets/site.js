@@ -7,7 +7,7 @@ const conferences = [
     name: "ACC",
     slug: "acc",
     reviewFile: "pdfs/conference-reviews/ACC_2026_Preseason_Review.pdf",
-    reviewAvailable: false,
+    reviewAvailable: true,
     teams: [
       "Boston College", "California", "Clemson", "Duke", "Florida State", "Georgia Tech",
       "Louisville", "Miami", "NC State", "North Carolina", "Pitt", "SMU", "Stanford",
