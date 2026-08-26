@@ -4,7 +4,7 @@ window.CFB_RELEASE_STATE = {
     "Big Ten": false,
     "Big 12": false,
     "SEC": false,
-    "Notre Dame": false
+    "Notre Dame": true
   },
   "teams": {
     "Florida": true,
