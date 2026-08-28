@@ -3,7 +3,7 @@ window.CFB_RELEASE_STATE = {
     "ACC": true,
     "Big Ten": false,
     "Big 12": false,
-    "SEC": false,
+    "SEC": true,
     "Notre Dame": true
   },
   "teams": {
