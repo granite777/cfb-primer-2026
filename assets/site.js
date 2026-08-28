@@ -40,7 +40,7 @@ const conferences = [
     name: "SEC",
     slug: "sec",
     reviewFile: "pdfs/conference-reviews/SEC_2026_Preseason_Review.pdf",
-    reviewAvailable: false,
+    reviewAvailable: true,
     teams: [
       "Alabama", "Arkansas", "Auburn", "Florida", "Georgia", "Kentucky", "LSU", "Mississippi State",
       "Missouri", "Oklahoma", "Ole Miss", "South Carolina", "Tennessee", "Texas", "Texas A&M", "Vanderbilt"
