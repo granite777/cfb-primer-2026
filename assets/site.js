@@ -29,7 +29,7 @@ const conferences = [
     name: "Big 12",
     slug: "big-12",
     reviewFile: "pdfs/conference-reviews/Big_12_2026_Preseason_Review.pdf",
-    reviewAvailable: false,
+    reviewAvailable: true,
     teams: [
       "Arizona", "Arizona State", "Baylor", "BYU", "Cincinnati", "Colorado", "Houston",
       "Iowa State", "Kansas", "Kansas State", "Oklahoma State", "TCU", "Texas Tech", "UCF",
