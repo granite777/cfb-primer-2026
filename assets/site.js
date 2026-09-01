@@ -18,7 +18,7 @@ const conferences = [
     name: "Big Ten",
     slug: "big-ten",
     reviewFile: "pdfs/conference-reviews/Big_Ten_2026_Preseason_Review.pdf",
-    reviewAvailable: false,
+    reviewAvailable: true,
     teams: [
       "Illinois", "Indiana", "Iowa", "Maryland", "Michigan", "Michigan State", "Minnesota",
       "Nebraska", "Northwestern", "Ohio State", "Oregon", "Penn State", "Purdue", "Rutgers",
